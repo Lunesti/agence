@@ -9,10 +9,23 @@
             Voir tout nos biens
                     
         </h1>
+<<<<<<< HEAD
+        <div class="row">
+            {% for property in properties %}
+                <div class="col-md-4">
+                    {% include "property/_property.html.twig" %}
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="pagination">
+    {{ knp_pagination_render(pagination) }}</div>
+=======
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam tempore molestiae aliquam sapiente asperiores hic neque cum. Libero, quis tempore quidem consectetur odit, aliquid sunt nulla est eveniet ad excepturi!
                     
         </p>
+>>>>>>> 4939d25cc2d4d2d87be4bf5c75f580e6fd0e8255
     </div>
 
 {% endblock %}
